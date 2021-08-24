@@ -102,7 +102,7 @@ class WearAHat {
                         break;
                     }
                     default: { // all - manually combined
-                        this.HatDatabase = Object.assign({}, require('../public/data/all.json'), require('../public/defaults.json'));
+                        this.HatDatabase = Object.assign({}, require('../public/data/all.json'), require('../public/min.json'));
                         break;
                     }
                 }
